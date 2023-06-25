@@ -1,0 +1,7 @@
+{
+    "name": "ivy-regressor",
+    "implementation": "models.IvyModel",
+    "parameters": {
+        "uri": "./artifacts"
+    }
+}
