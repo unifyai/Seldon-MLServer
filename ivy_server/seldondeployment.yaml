@@ -1,0 +1,16 @@
+apiVersion: machinelearning.seldon.io/v1
+kind: SeldonDeployment
+metadata:
+  name: ivy-model
+spec:
+  protocol: v2
+  predictors:
+    - name: default
+      graph:
+        name: ivy-regressor
+        type: MODEL
+      componentSpecs:
+        - spec:
+            containers:
+              - name: ivy-regressor
+                image: my-ivy-server:0.1.0
