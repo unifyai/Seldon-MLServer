@@ -10,7 +10,7 @@ class Regressor(ivy.Module):
         x = ivy.sigmoid(self.linear(x))
         x = self.dropout(x)
         return x
-    
+
 input_dim = 3
 output_dim = 1
 backend = 'torch'
