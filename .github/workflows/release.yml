@@ -140,6 +140,7 @@ jobs:
           - alibi-explain
           - huggingface
           - lightgbm
+          - ivy
           - mlflow
           - mllib
           - sklearn

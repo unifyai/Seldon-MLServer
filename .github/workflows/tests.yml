@@ -89,6 +89,7 @@ jobs:
           - sklearn
           - xgboost
           - lightgbm
+          - ivy
           - mlflow
           - huggingface
           - alibi-explain

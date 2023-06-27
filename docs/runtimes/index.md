@@ -29,6 +29,7 @@ class in your `model-settings.json` file.
 | HuggingFace   | `mlserver-huggingface`   | `mlserver_huggingface.HuggingFaceRuntime`    | [HuggingFace example](../examples/huggingface/README.md)   | [MLServer HuggingFace](./huggingface)                            |
 | Spark MLlib   | `mlserver-mllib`         | `mlserver_mllib.MLlibModel`                  | Coming Soon                                                | [MLServer MLlib](./mllib)                                        |
 | LightGBM      | `mlserver-lightgbm`      | `mlserver_lightgbm.LightGBMModel`            | [LightGBM example](../examples/lightgbm/README.md)         | [MLServer LightGBM](./lightgbm)                                  |
+| Ivy           | `mlserver-ivy`           | `mlserver_ivy.IvyModel`                      | [Ivy example](../examples/ivy/README.md)                   | [MLServer Ivy](./ivy)                                            |
 | Tempo         | `tempo`                  | `tempo.mlserver.InferenceRuntime`            | [Tempo example](../examples/tempo/README.md)               | [`github.com/SeldonIO/tempo`](https://github.com/SeldonIO/tempo) |
 | MLflow        | `mlserver-mlflow`        | `mlserver_mlflow.MLflowRuntime`              | [MLflow example](../examples/mlflow/README.md)             | [MLServer MLflow](./mlflow)                                      |
 | Alibi-Detect  | `mlserver-alibi-detect`  | `mlserver_alibi_detect.AlibiDetectRuntime`   | [Alibi-detect example](../examples/alibi-detect/README.md) | [MLServer Alibi-Detect](./alibi-detect)                          |
@@ -44,6 +45,7 @@ MLflow <./mlflow>
 Tempo <https://tempo.readthedocs.io>
 Spark MLlib <./mllib>
 LightGBM <./lightgbm>
+Ivy <./ivy>
 Alibi-Detect <./alibi-detect>
 Alibi-Explain <./alibi-explain>
 HuggingFace <./huggingface>

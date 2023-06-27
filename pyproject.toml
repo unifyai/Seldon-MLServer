@@ -108,6 +108,7 @@ optional = true
 mlserver-sklearn = {path = "./runtimes/sklearn", develop = true}
 mlserver-xgboost = {path = "./runtimes/xgboost", develop = true}
 mlserver-lightgbm = {path = "./runtimes/lightgbm", develop = true}
+mlserver-ivy = {path = "./runtimes/ivy", develop = true}
 mlserver-mlflow = {path = "./runtimes/mlflow", develop = true}
 mlserver-huggingface = {path = "./runtimes/huggingface", develop = true}
 mlserver-alibi-explain = {path = "./runtimes/alibi-explain", develop = true}
